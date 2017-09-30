@@ -1,5 +1,13 @@
 import React, { Component } from 'react';
+import { injectIntl, intlShape, defineMessages, FormattedMessage } from 'react-intl';
 import styled from 'styled-components';
+
+const messages = defineMessages({
+  subscribe: {
+    id: 'form.subscribe',
+    defaultMessage: 'Subscribe'
+  }
+});
 
 const Wrapper = styled.form`
   display: flex;
@@ -44,13 +52,18 @@ const Wrapper = styled.form`
       box-sizing: border-box;
       display: block;
       border: 0;
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid #f7f7f7;
       width: 100%;
       outline: none;
       font-family: "Inconsolata", monospace;
       padding-bottom: .5rem;
       background: transparent;
       line-height: 1.5;
+      transition: border-color .2s linear;
+      &:active,
+      &:focus {
+        border-color: #ddd;
+      }
     }
     input[type="checkbox"] {
       display: inline-block;
@@ -80,31 +93,34 @@ const Wrapper = styled.form`
   }
 `
 
-export default class Form extends Component {
+class Form extends Component {
   render () {
+    const { intl } = this.props;
     return (
       <Wrapper id="subscription">
         <p className="field">
           <label>
-            Name <span className="required">*</span>
+            <FormattedMessage id="form.name" defaultMessage="Name" />
+            <span className="required"> *</span>
             <input name="name" type="text" />
           </label>
         </p>
         <p className="field">
           <label>
-            Email <span className="required">*</span>
+            <FormattedMessage id="form.email" defaultMessage="Email" />
+            <span className="required"> *</span>
             <input name="email" type="email" />
           </label>
         </p>
         <p className="field">
           <label>
-            Organization
+            <FormattedMessage id="form.organization" defaultMessage="Organization" />
             <input name="organization" type="text" />
           </label>
         </p>
         <p className="field full">
           <label>
-            Additional comments
+            <FormattedMessage id="form.comments" defaultMessage="Additional comments" />
             <textarea name="comments" />
           </label>
         </p>
@@ -112,20 +128,26 @@ export default class Form extends Component {
           <p className="field checkbox-field">
             <label>
               <input name="journalist" type="checkbox" />
-              Are you a journalist?
+              <FormattedMessage id="form.journalist" defaultMessage="Are you a journalist?" />
             </label>
           </p>
           <p className="field checkbox-field">
             <label>
               <input name="activist" type="checkbox" />
-              Are you an activist?
+              <FormattedMessage id="form.activist" defaultMessage="Are you an activist?" />
             </label>
           </p>
         </div>
         <p className="field">
-          <input type="submit" value="Subscribe" />
+          <input type="submit" value={intl.formatMessage(messages.subscribe)} />
         </p>
       </Wrapper>
     )
   }
 }
+
+Form.propTypes = {
+  intl: intlShape.isRequired
+};
+
+export default injectIntl(Form);

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FormattedMessage } from 'react-intl';
 import styled from 'styled-components';
 import { media } from 'styles';
 
@@ -60,7 +61,10 @@ export default class Header extends Component {
     return (
       <Wrapper>
         <Title><img src={require('images/logo_white.svg')} alt="FOI" /></Title>
-        <Subtitle>FOI is a Publishing Bot</Subtitle>
+        <Subtitle><FormattedMessage
+          id="general.subtitle"
+          defaultMessage={`FOI is a Publishing Bot`}
+         /></Subtitle>
       </Wrapper>
     )
   }

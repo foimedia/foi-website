@@ -3,7 +3,6 @@ const webpack = require('webpack');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
-
 module.exports = {
   entry: {
     main: ['./src/index']
@@ -43,6 +42,7 @@ module.exports = {
         },
         exclude: /node_modules/
       },
+      { test: /\.json$/, loader: 'json-loader' },
       {
         test: /\.css$/,
         loader: 'style-loader!css-loader'

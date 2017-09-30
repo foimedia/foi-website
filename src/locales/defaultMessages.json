@@ -1,0 +1,91 @@
+[
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "is a free software for publishing and sharing multimedia live feeds through a bot.",
+        "id": "content.first_paragraph"
+      },
+      {
+        "defaultMessage": "We use a Telegram bot to publish your content so you can focus on your story and let the bot take care of the rest.",
+        "id": "content.second_paragraph"
+      },
+      {
+        "defaultMessage": "The technology is currently under development. If you are a developer, designer, journalist or enthusiast interested in helping us out check out our <a href='https://github.com/foimedia/foi'>GitHub repository</a>.",
+        "id": "content.third_paragraph"
+      },
+      {
+        "defaultMessage": "If you are an individual or organization looking to use <strong>FOI</strong>, fill out the form below and we will keep in touch!",
+        "id": "content.form_paragraph"
+      }
+    ],
+    "path": "src/components/content.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "My Coverage",
+        "id": "demo.title"
+      },
+      {
+        "defaultMessage": "10 members",
+        "id": "demo.subtitle"
+      },
+      {
+        "defaultMessage": "Message",
+        "id": "demo.msgPlaceholder"
+      }
+    ],
+    "path": "src/components/demo.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Subscribe",
+        "id": "form.subscribe"
+      },
+      {
+        "defaultMessage": "Name",
+        "id": "form.name"
+      },
+      {
+        "defaultMessage": "Email",
+        "id": "form.email"
+      },
+      {
+        "defaultMessage": "Organization",
+        "id": "form.organization"
+      },
+      {
+        "defaultMessage": "Additional comments",
+        "id": "form.comments"
+      },
+      {
+        "defaultMessage": "Are you a journalist?",
+        "id": "form.journalist"
+      },
+      {
+        "defaultMessage": "Are you an activist?",
+        "id": "form.activist"
+      }
+    ],
+    "path": "src/components/form.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "FOI is a Publishing Bot",
+        "id": "general.subtitle"
+      }
+    ],
+    "path": "src/components/header.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Real-time coverage of events for journalists and activists.",
+        "id": "general.headline"
+      }
+    ],
+    "path": "src/components/headline.json"
+  }
+]

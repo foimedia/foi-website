@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import { IntlProvider, addLocaleData } from 'react-intl';
 import styled from 'styled-components';
 import 'normalize.css';
 import 'font-awesome/css/font-awesome.css';
+
+import en from 'react-intl/locale-data/en';
+import pt from 'react-intl/locale-data/pt';
+addLocaleData([...en, ...pt]);
 
 const Wrapper = styled.div`
   overflow-x: hidden;
@@ -29,6 +34,13 @@ const Wrapper = styled.div`
   }
 `;
 
+import localeData from './locales';
+const language = (navigator.languages && navigator.languages[0]) ||
+                   navigator.language ||
+                   navigator.userLanguage;
+const languageWithoutRegionCode = language.toLowerCase().split(/[_-]+/)[0];
+const messages = localeData[language] || localeData[languageWithoutRegionCode] || localeData.en;
+
 import Video from 'components/video';
 import Header from 'components/header';
 import Headline from 'components/headline';
@@ -38,13 +50,15 @@ import Footer from 'components/footer';
 import Content from 'components/content';
 
 ReactDom.render(
-  <Wrapper>
-    <Video />
-    <Header />
-    <Headline />
-    <Demo />
-    <Content />
-    <Footer />
-  </Wrapper>,
+  <IntlProvider locale={language} messages={messages}>
+    <Wrapper>
+      <Video />
+      <Header />
+      <Headline />
+      <Demo />
+      <Content />
+      <Footer />
+    </Wrapper>
+  </IntlProvider>,
   document.getElementById('app')
 );

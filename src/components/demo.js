@@ -1,11 +1,28 @@
 import React, { Component } from 'react';
+import { injectIntl, intlShape, defineMessages } from 'react-intl';
 import styled from 'styled-components';
 import Snap from 'snapsvg';
 import { media } from 'styles';
 
+const messages = defineMessages({
+  title: {
+    id: 'demo.title',
+    defaultMessage: 'My Coverage'
+  },
+  subtitle: {
+    id: 'demo.subtitle',
+    defaultMessage: '10 members'
+  },
+  msgPlaceholder: {
+    id: 'demo.msgPlaceholder',
+    defaultMessage: 'Message'
+  }
+});
+
 const Wrapper = styled.section`
   margin: 0 -.25rem -1.5rem;
   background: #191919;
+  cursor: default;
   svg {
     width: 100%;
     height: auto;
@@ -19,18 +36,26 @@ const Wrapper = styled.section`
   `}
 `
 
-export default class Demo extends Component {
+class Demo extends Component {
   constructor (props) {
     super(props);
     this.duration = 8000;
   }
   componentDidMount () {
     const node = this.svg;
+    const { intl } = this.props;
     this.snap = Snap(this.svg);
     Snap.load(require('images/demo.svg'), data => {
       if(node) {
         node.appendChild(data.node);
         this.snap.select('#foi-photo').attr('xlink:href', require('images/police.jpg'));
+        // Apply intl
+        this.snap.select('#foi-header-title tspan')
+          .node.textContent = intl.formatMessage(messages.title);
+        this.snap.select('#foi-header-title-1 tspan')
+          .node.textContent = intl.formatMessage(messages.subtitle);
+        this.snap.select('#foi-message-label tspan')
+          .node.textContent = intl.formatMessage(messages.msgPlaceholder);
         this.animateLogos();
         this.animateMessages(this.duration);
       }
@@ -152,3 +177,9 @@ export default class Demo extends Component {
     )
   }
 }
+
+Demo.propTypes = {
+  intl: intlShape.isRequired
+};
+
+export default injectIntl(Demo);

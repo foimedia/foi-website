@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FormattedMessage } from 'react-intl';
 import styled from 'styled-components';
 import { media } from 'styles';
 
@@ -35,7 +36,12 @@ const Wrapper = styled.h3`
 export default class Headline extends Component {
   render () {
     return (
-      <Wrapper>Real-time coverage of events for journalists and activists.</Wrapper>
+      <Wrapper>
+        <FormattedMessage
+          id="general.headline"
+          defaultMessage={`Real-time coverage of events for journalists and activists.`}
+          />
+      </Wrapper>
     )
   }
 }
