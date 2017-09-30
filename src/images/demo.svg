@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 414.44442 270.80099"
+   height="76.426056mm"
+   width="116.96542mm">
+  <defs
+     id="defs4">
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.68164196,1.4670458)"
+       id="linearGradient-8"
+       y2="94.104073"
+       x2="46.996658"
+       y1="0.22565928"
+       x1="46.996658">
+      <stop
+         id="stop4561"
+         offset="0%"
+         stop-color="#39413D" />
+      <stop
+         id="stop4563"
+         offset="100%"
+         stop-color="#000000" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.67699323,1.4771197)"
+       id="linearGradient-9"
+       y2="92.900612"
+       x2="47.31937"
+       y1="0.78579605"
+       x1="47.31937">
+      <stop
+         id="stop4566"
+         offset="0%"
+         stop-color="#1B2220" />
+      <stop
+         id="stop4568"
+         offset="100%"
+         stop-color="#141615" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.99123247,1.0088451)"
+       id="linearGradient-10"
+       y2="134.33791"
+       x2="32.895527"
+       y1="124.13315"
+       x1="32.895527">
+      <stop
+         id="stop4571"
+         offset="0%"
+         stop-color="#101111" />
+      <stop
+         id="stop4573"
+         offset="53.4568939%"
+         stop-color="#191A19" />
+      <stop
+         id="stop4575"
+         offset="100%"
+         stop-color="#1B1F1C" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.9912325,1.0088451)"
+       id="linearGradient-11"
+       y2="1.9568212"
+       x2="1.8250846"
+       y1="0.92883599"
+       x1="1.8250846">
+      <stop
+         id="stop4578"
+         offset="0%"
+         stop-color="#29305F" />
+      <stop
+         id="stop4580"
+         offset="100%"
+         stop-color="#20274C" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.70985469,0,0,0.29633702,260.44364,85.05677)"
+       id="linearGradient-1"
+       y2="657.10077"
+       x2="172.47925"
+       y1="648.6853"
+       x1="172.47925">
+      <stop
+         id="stop4528"
+         offset="0%"
+         stop-color="#C7C7C7" />
+      <stop
+         id="stop4530"
+         offset="100%"
+         stop-color="#CAC8C8" />
+    </linearGradient>
+    <filter
+       id="filter-2"
+       filterUnits="objectBoundingBox"
+       height="2"
+       width="2"
+       y="-0.5"
+       x="-0.5">
+      <feGaussianBlur
+         id="feGaussianBlur4533"
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="0" />
+    </filter>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(2.7051617,0.36966367)"
+       id="linearGradient-4"
+       y2="1010.7579"
+       x2="99.418755"
+       y1="811.92035"
+       x1="99.418755">
+      <stop
+         id="stop4541"
+         offset="0%"
+         stop-color="#D8D8D8" />
+      <stop
+         id="stop4543"
+         offset="100%"
+         stop-color="#D6D6D6" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(1.2842378,0.778672)"
+       id="linearGradient-3"
+       y2="418.83804"
+       x2="209.41902"
+       y1="0"
+       x1="209.41902">
+      <stop
+         id="stop4536"
+         offset="0%"
+         stop-color="#191919" />
+      <stop
+         id="stop4538"
+         offset="100%"
+         stop-color="#070707" />
+    </linearGradient>
+    <clipPath
+       id="clipPath4873"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         rx="1.24287"
+         y="84.754227"
+         x="62.534843"
+         height="209.97432"
+         width="158.11978"
+         id="rect4875"
+         style="fill:#b7b7b7;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath4896"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         style="fill:#b7b7b7;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8.72132206;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4898"
+         width="155.50496"
+         height="78.061989"
+         x="303.84152"
+         y="135.56693"
+         rx="0.9880268" />
+    </clipPath>
+    <clipPath
+       id="clipPath4922"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="213.29733"
+         x="481.73993"
+         height="73.096725"
+         width="44.123226"
+         id="rect4924"
+         style="fill:#b7b7b7;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="display:inline"
+     transform="translate(-61.074154,-52.776203)"
+     id="layer1">
+    <g
+       transform="translate(-55.55643,18.962436)"
+       id="desktop">
+      <path
+         style="fill:url(#linearGradient-1)"
+         id="base-6"
+         d="m 406.7165,257.60991 2.6897,19.43983 c 0.20863,1.50791 -0.85369,2.73031 -2.37397,2.73031 l -48.30661,0 c -1.51974,0 -2.58343,-1.21643 -2.37397,-2.73031 l 2.6897,-19.43983 47.67515,0 z" />
+      <g
+         transform="matrix(0.45864607,0,0,0.45864607,260.84113,85.32388)"
+         id="upper">
+        <rect
+           style="fill:url(#linearGradient-4)"
+           rx="14"
+           height="73.503006"
+           width="537.88763"
+           y="300.13745"
+           x="0"
+           id="frame-bottom" />
+        <rect
+           style="fill:url(#linearGradient-3)"
+           rx="20"
+           height="326.13745"
+           width="537.88763"
+           y="0"
+           x="0"
+           id="bezel" />
+        <rect
+           style="fill:#2a2a2a"
+           height="284.20551"
+           width="495.5433"
+           y="20.965981"
+           x="21.172174"
+           id="panel" />
+      </g>
+      <g
+         transform="matrix(0.45864607,0,0,0.45864607,300.34585,105.2372)"
+         id="Browser">
+        <rect
+           style="fill:#d8d8d8"
+           rx="3"
+           height="246"
+           width="355"
+           y="0"
+           x="0"
+           id="Rectangle-17" />
+        <circle
+           style="fill:#e25466"
+           r="2.5"
+           cy="7.5"
+           cx="8.5"
+           id="Oval-3" />
+        <circle
+           style="fill:#f9e872"
+           r="2.5"
+           cy="7.5"
+           cx="16.5"
+           id="Oval-3-Copy" />
+        <circle
+           style="fill:#27c996"
+           r="2.5"
+           cy="7.5"
+           cx="24.5"
+           id="Oval-3-Copy-2" />
+        <rect
+           style="fill:#ffffff"
+           rx="1"
+           height="225"
+           width="341.5"
+           y="14"
+           x="7"
+           id="rect4603" />
+        <g
+           clip-path="url(#clipPath4896)"
+           transform="matrix(2.1958912,0,0,2.1958912,-660.21937,-229.33814)"
+           id="desktop-messages-container">
+          <g
+             id="desktop-messages">
+            <use
+               x="0"
+               y="0"
+               xlink:href="#output-messages"
+               id="desktop-messages-box"
+               transform="matrix(2.1740082,0,0,2.1740082,-712.06356,-327.86373)"
+               width="100%"
+               height="100%" />
+          </g>
+        </g>
+      </g>
+      <g
+         transform="matrix(0.83522386,0,0,0.83522386,55.060364,19.61348)"
+         id="swap-logos">
+        <text
+           id="swap-logos-website"
+           y="128.3253"
+           x="334.55634"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;font-family:Inconsolata;-inkscape-font-specification:Inconsolata;fill:#000000;fill-opacity:0.48580442"
+             y="128.3253"
+             x="334.55634"
+             id="tspan4405">Your website</tspan></text>
+        <text
+           id="swap-logos-twitter"
+           y="130.68976"
+           x="333.81491"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome"
+             y="130.68976"
+             x="333.81491"
+             id="tspan4397"></tspan></text>
+        <text
+           id="swap-logos-facebook"
+           y="130.23788"
+           x="334.20224"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome"
+             y="130.23788"
+             x="334.20224"
+             id="tspan4390"></tspan></text>
+        <g
+           id="swap-logos-foi">
+          <path
+             d="m 345.55189,119.70189 c 0.0309,0.56865 -0.75754,0.88876 -1.1316,0.4591 -0.41153,-0.38055 -0.087,-1.14803 0.47268,-1.11801 0.35462,-0.007 0.66591,0.30408 0.65892,0.65891 z"
+             id="foi_logo_i_dot-1"
+             style="fill:#000000;fill-opacity:1" />
+          <path
+             d="m 337.60001,119.03341 c 0,0.22169 4.5e-4,0.44337 4.5e-4,0.66505 -0.48717,0.20934 -1.07635,0.42667 -1.3005,0.94938 -0.0327,0.50103 -0.005,1.00607 -0.0133,1.50872 -0.45255,0.0741 -0.90514,0.14819 -1.35769,0.22228 0.008,-0.92631 -0.009,-1.8538 0.0146,-2.7793 0.0366,-0.49358 0.55456,-0.60213 0.95773,-0.56029 0.56625,-0.002 1.13246,-0.004 1.69871,-0.006 z"
+             id="foi_logo_f_1-5"
+             style="fill:#000000;fill-opacity:1" />
+          <path
+             d="m 344.87708,125.67088 c 0.11411,3.00531 -3.16924,5.42102 -6.00374,4.42732 -2.90289,-0.77971 -4.24537,-4.62886 -2.45535,-7.04417 1.60279,-2.54381 5.6765,-2.68807 7.45492,-0.264 0.64682,0.81081 1.0067,1.84369 1.00413,2.88072 z"
+             id="foi_logo_o-3"
+             style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:1.35412645;stroke-opacity:1" />
+          <path
+             d="m 334.27382,122.14158 0.71977,0 c 5.4e-4,0.43891 0.001,0.87783 0.002,1.31675 -0.23977,0 -0.47955,-4.9e-4 -0.71932,-7.2e-4 -7.2e-4,-0.43867 -0.001,-0.87734 -0.002,-1.31603 z"
+             id="foi_logo_f_2-6"
+             style="fill:#000000;fill-opacity:1" />
+          <path
+             style="fill:#000000;fill-opacity:1"
+             id="foi_logo_f_3-2"
+             d="m 334.93328,122.14113 1.33607,0 0,3.5743 -1.33607,0 0,-3.5743 z" />
+          <path
+             style="fill:#000000;fill-opacity:1"
+             id="foi_logo_i-9"
+             d="m 344.20363,122.14113 1.34614,0 0,3.5038 -1.34614,0 0,-3.5038 z" />
+        </g>
+      </g>
+    </g>
+    <g
+       transform="translate(-56.263199,2.7218262)"
+       id="mobile">
+      <g
+         style="fill:#000000;fill-opacity:1"
+         transform="matrix(0.89836374,0,0,0.89836374,473.74494,181.41154)"
+         id="iPhone">
+        <g
+           transform="translate(0.572221,0.582388)"
+           id="g4672">
+          <path
+             style="fill:url(#linearGradient-8)"
+             id="antenna-edging"
+             d="m 8.1924551,0.33105251 c -4.5029391,0 -8.1532926,3.71495389 -8.1532926,8.29868579 l 0,121.1265617 c 0,4.58324 3.6499255,8.29868 8.1532926,8.29868 l 47.6848779,0 c 4.502939,0 8.153293,-3.71495 8.153293,-8.29868 l 0,-121.1265617 c 0,-4.5832376 -3.649926,-8.29868579 -8.153293,-8.29868579 l -47.6848779,0 0,0 z" />
+          <path
+             style="fill:url(#linearGradient-9)"
+             id="glass"
+             d="m 9.0069661,1.1607147 c -4.5025708,0 -8.15262573,3.7143973 -8.15262573,8.2970808 l 0,119.4704445 c 0,4.58235 3.65094593,8.29708 8.15262573,8.29708 l 46.0558559,0 c 4.502571,0 8.152626,-3.7144 8.152626,-8.29708 l 0,-119.4704445 c 0,-4.5823513 -3.650946,-8.2970808 -8.152626,-8.2970808 l -46.0558559,0 0,0 z" />
+          <path
+             style="fill:#ffffff;stroke:#e9e9e9;stroke-width:2"
+             id="view-port"
+             d="m 4.5226408,19.828115 0,99.144635 55.0245062,0 0,-99.144635 -55.0245062,0 0,0 z" />
+        </g>
+        <path
+           style="fill:url(#linearGradient-10)"
+           id="path4682"
+           d="m 32.607115,135.52614 c 3.264025,0 5.91004,-2.69303 5.91004,-6.01505 0,-3.32202 -2.646015,-6.01505 -5.91004,-6.01505 -3.264025,0 -5.91004,2.69303 -5.91004,6.01505 0,3.32202 2.646015,6.01505 5.91004,6.01505 l 0,0 z" />
+        <g
+           transform="translate(26.894383,6.406272)"
+           id="top-elements">
+          <path
+             style="opacity:0.44396308;fill:#060707"
+             id="ear-piece"
+             d="m 1.1258509,6.3298561 c -0.39310244,0 -0.71177483,0.3258368 -0.71177483,0.7259545 l 0,0 c 0,0.4009336 0.32004372,0.7259544 0.71177483,0.7259544 l 9.1737631,0 c 0.393102,0 0.711775,-0.3258368 0.711775,-0.7259544 l 0,0 c 0,-0.4009337 -0.320044,-0.7259545 -0.711775,-0.7259545 l -9.1737631,0 0,0 z" />
+          <g
+             transform="translate(4.005546,0)"
+             id="Camera">
+            <path
+               style="fill:#1a1e1d"
+               id="Oval-2"
+               d="m 1.7071859,2.596376 c 0.6753156,0 1.2227668,-0.5571785 1.2227668,-1.2444933 0,-0.68731482 -0.5474512,-1.24449337 -1.2227668,-1.24449337 -0.6753156,0 -1.22276683,0.55717855 -1.22276683,1.24449337 0,0.6873148 0.54745123,1.2444933 1.22276683,1.2444933 l 0,0 z" />
+            <path
+               style="opacity:0.54517044;fill:url(#linearGradient-11)"
+               id="path4688"
+               d="m 1.8090831,1.9741294 c 0.2813815,0 0.5094862,-0.2321578 0.5094862,-0.5185389 0,-0.2863812 -0.2281047,-0.51853893 -0.5094862,-0.51853893 -0.2813815,0 -0.5094862,0.23215773 -0.5094862,0.51853893 0,0.2863811 0.2281047,0.5185389 0.5094862,0.5185389 l 0,0 z" />
+          </g>
+        </g>
+      </g>
+      <use
+         height="100%"
+         width="100%"
+         transform="matrix(0.56173575,0,0,0.56173575,294.19118,136.63505)"
+         id="use4244"
+         xlink:href="#swap-logos"
+         y="0"
+         x="0" />
+      <g
+         clip-path="url(#clipPath4922)"
+         id="mobile-messages-container">
+        <g
+           id="output-messages">
+          <use
+             height="100%"
+             width="100%"
+             transform="matrix(0.39214733,0,0,0.39214733,441.06503,129.3804)"
+             id="output-message-3"
+             xlink:href="#foi-photo"
+             y="0"
+             x="0" />
+          <g
+             id="output-message-2"
+             transform="matrix(0.46396512,0,0,0.46396512,425.17827,159.13977)">
+            <rect
+               style="fill:#dcdcdc;fill-opacity:1;stroke:#dcdcdc;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               id="rect4469"
+               width="89.285713"
+               height="19.285715"
+               x="124.04051"
+               y="185.21254"
+               rx="1" />
+            <circle
+               style="fill:#efefef;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               id="circle4471"
+               cx="134.04674"
+               cy="194.85539"
+               r="8.8212204" />
+            <rect
+               style="fill:#efefef;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               id="rect4473"
+               width="59.534569"
+               height="4.7472129"
+               x="148.83852"
+               y="192.4818"
+               rx="0.69305849" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               x="131.76761"
+               y="197.53397"
+               id="text4475"><tspan
+                 id="tspan4477"
+                 x="131.76761"
+                 y="197.53397"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome;fill:#ffffff;fill-opacity:1"></tspan></text>
+          </g>
+          <g
+             id="output-message-1"
+             transform="matrix(0.37566113,0,0,0.37566113,443.97807,203.28763)">
+            <rect
+               style="fill:#dcdcdc;fill-opacity:1;stroke:#dcdcdc;stroke-width:3.76524782;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               id="rect4454"
+               width="111.20563"
+               height="31.537184"
+               x="102.76485"
+               y="144.5787"
+               rx="1.2455031" />
+            <rect
+               style="fill:#efefef;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               id="rect4456"
+               width="80.755081"
+               height="6.5477386"
+               x="104.72556"
+               y="166.25026"
+               rx="0.94009244" />
+            <rect
+               rx="1.24287"
+               y="157.15622"
+               x="104.72556"
+               height="6.5477371"
+               width="106.76404"
+               id="rect4458"
+               style="fill:#efefef;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+            <rect
+               style="fill:#efefef;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               id="rect4460"
+               width="106.76404"
+               height="6.5477371"
+               x="104.72556"
+               y="147.88029"
+               rx="1.24287" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="foi">
+      <rect
+         style="fill:#222222;fill-opacity:1;stroke:#ff4646;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="foi-container"
+         width="160.19948"
+         height="269.80103"
+         x="61.574154"
+         y="53.276188" />
+      <g
+         id="foi-header-group">
+        <rect
+           rx="1.0139331"
+           y="53.361397"
+           x="61.263561"
+           height="31.293705"
+           width="160.80367"
+           id="foi-header"
+           style="fill:#ff4646;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <g
+           transform="matrix(0.65233917,0,0,0.65233917,24.5694,20.571015)"
+           id="foi-logo-container">
+          <circle
+             style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             id="foi-logo-circle"
+             cx="85.822891"
+             cy="74.32206"
+             r="15.152288" />
+          <g
+             transform="matrix(0.06445525,0,0,0.06445525,149.10362,144.86179)"
+             id="foi-logo"
+             style="fill:#ffffff;fill-opacity:1">
+            <path
+               d="m -876.57544,-1074.8314 c 2.5281,66.581 -70.213,120.10001 -133.00996,98.08501 -64.312,-17.274 -94.054,-102.55001 -54.397,-156.06001 35.509,-56.357 125.75996,-59.553 165.15996,-5.8489 14.33,17.963 22.303,40.846 22.246,63.821 z"
+               id="foi_logo_o"
+               style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-width:30" />
+            <path
+               d="m -1037.7954,-1221.8814 c 0,4.9114 0.01,9.8227 0.01,14.734 -10.793,4.6378 -23.846,9.4525 -28.812,21.033 -0.7237,11.1 -0.1112,22.289 -0.2943,33.425 -10.026,1.6415 -20.053,3.2829 -30.079,4.9244 0.1756,-20.522 -0.2044,-41.07 0.3233,-61.574 0.8101,-10.935 12.286,-13.34 21.218,-12.413 12.545,-0.043 25.089,-0.086 37.634,-0.1286 z"
+               id="foi_logo_f_1"
+               style="fill:#ffffff;fill-opacity:1" />
+            <path
+               d="m -1111.4854,-1153.0214 15.946,0 c 0.012,9.7239 0.025,19.448 0.037,29.172 -5.3119,0 -10.624,-0.011 -15.936,-0.016 -0.016,-9.7186 -0.032,-19.437 -0.047,-29.156 z"
+               id="foi_logo_f_2"
+               style="fill:#ffffff;fill-opacity:1" />
+            <path
+               d="m -1096.8754,-1153.0314 29.6,0 0,79.187 -29.6,0 0,-79.187 z"
+               id="foi_logo_f_3"
+               style="fill:#ffffff;fill-opacity:1" />
+            <path
+               d="m -891.49544,-1153.0314 29.823,0 0,77.625 -29.823,0 0,-77.625 z"
+               id="foi_logo_i"
+               style="fill:#ffffff;fill-opacity:1" />
+            <path
+               d="m -861.62544,-1207.0714 c 0.68387,12.598 -16.783,19.69 -25.07,10.171 -9.1172,-8.4308 -1.9265,-25.434 10.472,-24.769 7.8564,-0.156 14.753,6.7369 14.598,14.598 z"
+               id="foi_logo_i_dot"
+               style="fill:#ff4646;fill-opacity:1" />
+          </g>
+        </g>
+        <text
+           id="foi-header-title"
+           y="68.304474"
+           x="98.449799"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Inconsolata;-inkscape-font-specification:Inconsolata;fill:#ffffff;fill-opacity:1"
+             y="68.304474"
+             x="98.449799"
+             id="tspan4829">My coverage</tspan></text>
+        <text
+           id="foi-header-title-1"
+           y="76.301041"
+           x="98.66066"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.44794952;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.25px;font-family:Inconsolata;-inkscape-font-specification:Inconsolata;fill:#ffffff;fill-opacity:0.44794952"
+             y="76.301041"
+             x="98.66066"
+             id="tspan4829-7">10 members</tspan></text>
+        <text
+           id="foi-header-icon-1"
+           y="71.831093"
+           x="211.56129"
+           style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome;fill:#ffffff;fill-opacity:1"
+             y="71.831093"
+             x="211.56129"
+             id="tspan5240"></tspan></text>
+      </g>
+      <g
+         clip-path="url(#clipPath4873)"
+         id="foi-messages-container">
+        <g
+           id="foi-messages"
+           clip-path="url(#clipPath4873)">
+          <g
+             id="foi-message-1">
+            <rect
+               rx="1.2455031"
+               y="144.5787"
+               x="102.76485"
+               height="31.537184"
+               width="111.20563"
+               id="foi-message-1-box"
+               style="fill:#444444;fill-opacity:1;stroke:#444444;stroke-width:3.76524782;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+            <rect
+               rx="0.94009244"
+               y="166.25026"
+               x="104.72556"
+               height="6.5477386"
+               width="80.755081"
+               id="rect3616"
+               style="fill:#555555;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+            <rect
+               style="fill:#555555;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               id="rect3614"
+               width="106.76404"
+               height="6.5477371"
+               x="104.72556"
+               y="157.15622"
+               rx="1.24287" />
+            <rect
+               rx="1.24287"
+               y="147.88029"
+               x="104.72556"
+               height="6.5477371"
+               width="106.76404"
+               id="rect3612"
+               style="fill:#555555;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          </g>
+          <g
+             id="foi-message-2">
+            <rect
+               rx="1"
+               y="185.21254"
+               x="124.04051"
+               height="19.285715"
+               width="89.285713"
+               id="foi-message-2-box"
+               style="fill:#444444;fill-opacity:1;stroke:#444444;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+            <circle
+               r="8.8212204"
+               cy="194.85539"
+               cx="134.04674"
+               id="path4427"
+               style="fill:#555555;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+            <rect
+               rx="0.69305849"
+               y="192.4818"
+               x="148.83852"
+               height="4.7472129"
+               width="59.534569"
+               id="rect4433"
+               style="fill:#555555;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+            <text
+               id="text4429"
+               y="197.53397"
+               x="131.76761"
+               style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#888888;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               xml:space="preserve"><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome;fill:#888888;fill-opacity:1"
+                 y="197.53397"
+                 x="131.76761"
+                 id="tspan4431"></tspan></text>
+          </g>
+          <g
+             id="foi-message-3">
+            <rect
+               style="fill:#444444;fill-opacity:1;stroke:#444444;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               id="rect4627"
+               width="109.97842"
+               height="73.445869"
+               x="103.94607"
+               y="213.82146" />
+            <image
+               y="213.99341"
+               x="103.72348"
+               id="foi-photo"
+               preserveAspectRatio="none"
+               height="73.390625"
+               width="110"
+               style="image-rendering:optimizeSpeed" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="foi-bottom-group">
+        <rect
+           y="295.28873"
+           x="61.574158"
+           height="27.788485"
+           width="160.19949"
+           id="foi-message-box"
+           style="fill:#ff4646;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           id="foi-message-label"
+           y="312.06631"
+           x="69.81617"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.56466878;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;font-family:Inconsolata;-inkscape-font-specification:Inconsolata;fill:#ffffff;fill-opacity:0.56466878"
+             y="312.06631"
+             x="69.81617"
+             id="tspan4205">Message</tspan></text>
+        <text
+           id="foi-message-icon-1"
+           y="313.09225"
+           x="183.38626"
+           style="font-style:normal;font-weight:normal;font-size:36.51885986px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.56466878;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.41214371px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome;fill:#ffffff;fill-opacity:0.56466878"
+             y="313.09225"
+             x="183.38626"
+             id="tspan6166"></tspan></text>
+        <text
+           id="foi-message-icon-2"
+           y="313.55338"
+           x="203.52548"
+           style="font-style:normal;font-weight:normal;font-size:36.51885986px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.56466878;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.41214371px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome;fill:#ffffff;fill-opacity:0.56466878"
+             y="313.55338"
+             x="203.52548"
+             id="tspan4235"></tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
