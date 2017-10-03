@@ -1,6 +1,5 @@
 {
   "content.first_paragraph": "is a free software for publishing and sharing multimedia live feeds through a bot.",
-  "content.form_paragraph": "If you are an individual or organization looking to use <strong>FOI</strong>, fill out the form below and we will keep in touch!",
   "content.second_paragraph": "We use a Telegram bot to publish your content so you can focus on your story and let the bot take care of the rest.",
   "content.third_paragraph": "The technology is currently under development. If you are a developer, designer, journalist or enthusiast interested in helping us out check out our <a href='https://github.com/foimedia/foi'>GitHub repository</a>.",
   "demo.msgPlaceholder": "Message",
@@ -9,6 +8,7 @@
   "form.activist": "Are you an activist?",
   "form.comments": "Additional comments",
   "form.email": "Email",
+  "form.intro": "If you are an individual or organization looking to use <strong>FOI</strong>, fill out the form below and we will keep in touch!",
   "form.journalist": "Are you a journalist?",
   "form.name": "Name",
   "form.organization": "Organization",

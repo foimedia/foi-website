@@ -57,8 +57,6 @@ export default class Content extends Component {
         <h3><strong>FOI</strong> <FormattedMessage id="content.first_paragraph" defaultMessage="is a free software for publishing and sharing multimedia live feeds through a bot." /></h3>
         <p><FormattedMessage id="content.second_paragraph" defaultMessage="We use a Telegram bot to publish your content so you can focus on your story and let the bot take care of the rest." /></p>
         <p><FormattedHTMLMessage id="content.third_paragraph" defaultMessage="The technology is currently under development. If you are a developer, designer, journalist or enthusiast interested in helping us out check out our <a href='https://github.com/foimedia/foi'>GitHub repository</a>." /></p>
-        {/* <p>If you are an individual or organization looking to use <strong>FOI</strong>, contact us at <a href="mailto:hi@foi.media">hi@foi.media</a>.</p> */}
-        <p><FormattedHTMLMessage id="content.form_paragraph" defaultMessage="If you are an individual or organization looking to use <strong>FOI</strong>, fill out the form below and we will keep in touch!" /></p>
         <Form />
       </Wrapper>
     )

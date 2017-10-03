@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { injectIntl, intlShape, defineMessages, FormattedMessage } from 'react-intl';
-import styled from 'styled-components';
+import { injectIntl, intlShape, defineMessages, FormattedMessage, FormattedHTMLMessage } from 'react-intl';
+import styled, { css } from 'styled-components';
 import axios from 'axios';
 
 const api = mailing.api; // defined through webpack
@@ -33,6 +33,9 @@ const Wrapper = styled.form`
   flex-flow: wrap;
   justify-content: space-between;
   margin: 0 -.5rem;
+  p {
+    padding: 0 .5rem;
+  }
   p.field,
   .field-group {
     flex: 1 1 auto;
@@ -120,13 +123,26 @@ const Wrapper = styled.form`
   }
 `
 
-const Error = styled.div`
-  color: red;
+const Message = styled.div`
   flex: 1 1 100%;
-  margin: 0 .5rem 1rem;
-  border: 1px solid red;
+  margin: 0 0 1rem;
+  border: 1px solid #ddd;
   padding: .5rem 1rem;
   font-size: .8em;
+  .fa {
+    margin-right: 1rem;
+  }
+  ${props => props.error && css`
+    color: red;
+    border-color: red;
+    margin-left: .5rem;
+    margin-right: .5rem;
+  `}
+  ${props => props.success && css`
+    color: green;
+    margin: 0;
+    border-color: green;
+  `}
 `
 
 class Form extends Component {
@@ -198,18 +214,23 @@ class Form extends Component {
     const { intl } = this.props;
     if(sent) {
       return (
-        <p>
+        <Message success>
+          <span className="fa fa-check" />
           <FormattedMessage
             id="form.success"
             defaultMessage="Thank you for subscribing!"
             />
-        </p>
+        </Message>
       )
     } else {
       return (
         <Wrapper id="subscription" onSubmit={this.handleSubmit}>
-          {err && (
-            <Error>{intl.formatMessage(messages[err])}</Error>
+          <p><FormattedHTMLMessage id="form.intro" defaultMessage="If you are an individual or organization looking to use <strong>FOI</strong> and would like to receive updates, fill out the form below and we will keep in touch!" /></p>
+          {err && !processing && (
+            <Message error>
+              <span className="fa fa-times-circle" />
+              {intl.formatMessage(messages[err])}
+            </Message>
           )}
           <p className="field">
             <label>
@@ -241,13 +262,13 @@ class Form extends Component {
             <p className="field checkbox-field">
               <label>
                 <input name="journalist" type="checkbox" onChange={this.handleChange} />
-                <FormattedMessage id="form.journalist" defaultMessage="Are you a journalist?" />
+                <FormattedMessage id="form.journalist" defaultMessage="I'm an activist" />
               </label>
             </p>
             <p className="field checkbox-field">
               <label>
                 <input name="activist" type="checkbox" onChange={this.handleChange} />
-                <FormattedMessage id="form.activist" defaultMessage="Are you an activist?" />
+                <FormattedMessage id="form.activist" defaultMessage="I'm a journalist" />
               </label>
             </p>
           </div>
