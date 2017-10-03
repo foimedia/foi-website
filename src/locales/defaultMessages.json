@@ -44,6 +44,26 @@
         "id": "form.subscribe"
       },
       {
+        "defaultMessage": "You must provide a name.",
+        "id": "form.validation.name_empty"
+      },
+      {
+        "defaultMessage": "You must provide an email.",
+        "id": "form.validation.email_empty"
+      },
+      {
+        "defaultMessage": "Invalid email.",
+        "id": "form.validation.email_invalid"
+      },
+      {
+        "defaultMessage": "An unexpected error occured, please refresh your page and try again.",
+        "id": "form.validation.unexpected_error"
+      },
+      {
+        "defaultMessage": "Thank you for subscribing!",
+        "id": "form.success"
+      },
+      {
         "defaultMessage": "Name",
         "id": "form.name"
       },

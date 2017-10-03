@@ -13,6 +13,11 @@
   "form.name": "Name",
   "form.organization": "Organization",
   "form.subscribe": "Subscribe",
+  "form.success": "Thank you for subscribing!",
+  "form.validation.email_empty": "You must provide an email.",
+  "form.validation.email_invalid": "Invalid email.",
+  "form.validation.name_empty": "You must provide a name.",
+  "form.validation.unexpected_error": "An unexpected error occured, please refresh your page and try again.",
   "general.headline": "Real-time coverage of events for journalists and activists.",
   "general.subtitle": "FOI is a Publishing Bot"
 }

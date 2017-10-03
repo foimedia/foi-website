@@ -3,6 +3,9 @@ const webpack = require('webpack');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
+const env = process.env.NODE_ENV || 'development';
+const mailingApi = process.env.MAILING_SUBSCRIPTION_API || 'http://localhost:3000';
+
 module.exports = {
   entry: {
     main: ['./src/index']
@@ -23,6 +26,14 @@ module.exports = {
     filename: '[name]-[chunkhash].js'
   },
   plugins: [
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: JSON.stringify(env)
+      },
+      'mailing': {
+        'api': JSON.stringify(mailingApi)
+      }
+    }),
     new FaviconsWebpackPlugin({
       logo: path.resolve('src', 'images/logo.png')
     }),
@@ -38,7 +49,10 @@ module.exports = {
         test: /\.jsx?/,
         loader: 'babel-loader',
         query: {
-          presets: ['es2015', 'react']
+          presets: ['es2015', 'react'],
+          plugins: [
+            'transform-object-rest-spread'
+          ]
         },
         exclude: /node_modules/
       },

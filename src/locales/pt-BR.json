@@ -13,6 +13,11 @@
   "form.name": "Nome",
   "form.organization": "Organização",
   "form.subscribe": "Inscrever",
+  "form.success": "Obrigado por se inscrever!",
+  "form.validation.email_empty": "Você deve preencher um email.",
+  "form.validation.email_invalid": "Email inválido.",
+  "form.validation.name_empty": "Você deve preencher um nome.",
+  "form.validation.unexpected_error": "Ocorreu um erro inesperado, atualize a página e tente novamente.",
   "general.headline": "Cobertura em tempo real para jornalistas e ativistas.",
   "general.subtitle": "FOI é um BOT Publicador"
 }
