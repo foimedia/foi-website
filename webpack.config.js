@@ -3,7 +3,6 @@ const webpack = require('webpack');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
-const env = process.env.NODE_ENV || 'development';
 const mailingApi = process.env.MAILING_SUBSCRIPTION_API || 'http://localhost:3000';
 
 module.exports = {
@@ -27,9 +26,6 @@ module.exports = {
   },
   plugins: [
     new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: JSON.stringify(env)
-      },
       'mailing': {
         'api': JSON.stringify(mailingApi)
       }
