@@ -38,6 +38,7 @@
   "dependencies": {
     "axios": "^0.16.2",
     "font-awesome": "^4.7.0",
+    "intl": "^1.2.5",
     "normalize.css": "^7.0.0",
     "preact": "^8.2.5",
     "preact-compat": "^3.17.0",
