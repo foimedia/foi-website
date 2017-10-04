@@ -60,6 +60,7 @@ module.exports = {
       {
         test: /\.(png|jpg|gif|svg|woff2|woff|eot|ttf|mp4)$/,
         loader: 'file-loader'
+        // loader: 'file-loader?name=[name].[ext]?[hash:5]'
       },
       {
          test: require.resolve('snapsvg'),
