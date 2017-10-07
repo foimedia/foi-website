@@ -16,6 +16,18 @@ const messages = defineMessages({
   msgPlaceholder: {
     id: 'demo.msgPlaceholder',
     defaultMessage: 'Message'
+  },
+  website: {
+    id: 'demo.website',
+    defaultMessage: 'Your Website'
+  },
+  textMessage1: {
+    id: 'demo.textMessage1',
+    defaultMessage: 'Riot police has arrived,'
+  },
+  textMessage2: {
+    id: 'demo.textMessage2',
+    defaultMessage: 'tensions rises among protestors.'
   }
 });
 
@@ -35,6 +47,9 @@ const Wrapper = styled.section`
     margin: 0 10vw 5vw;
   `}
 `
+
+// const easing = function (t) { return t<.5 ? 2*t*t : -1+(4-2*t)*t };
+const easing = function (t) { return t*t };
 
 class Demo extends Component {
   constructor (props) {
@@ -56,6 +71,16 @@ class Demo extends Component {
           .node.textContent = intl.formatMessage(messages.subtitle);
         this.snap.select('#foi-message-label tspan')
           .node.textContent = intl.formatMessage(messages.msgPlaceholder);
+        this.snap.select('#swap-logos-website tspan')
+          .node.textContent = intl.formatMessage(messages.website);
+        this.snap.select('.output-text-message tspan:nth-child(1)')
+          .node.textContent = intl.formatMessage(messages.textMessage1);
+        this.snap.select('.output-text-message tspan:nth-child(2)')
+          .node.textContent = intl.formatMessage(messages.textMessage2);
+        this.snap.select('.foi-text-message tspan:nth-child(1)')
+          .node.textContent = intl.formatMessage(messages.textMessage1);
+        this.snap.select('.foi-text-message tspan:nth-child(2)')
+          .node.textContent = intl.formatMessage(messages.textMessage2);
         this.animateLogos();
         this.animateMessages(this.duration);
       }
@@ -74,22 +99,22 @@ class Demo extends Component {
       s.select('#swap-logos-facebook')
     ];
     logos.forEach((logo, i) => {
-      if(i !== active) {
+      // if(i !== active) {
         logo.attr({style: 'opacity:0'});
-      }
+      // }
     });
-    setInterval(() => {
-      logos[active].animate({opacity: 0}, 200);
-      setTimeout(function() {
-        active++;
-        if(!logos[active]) active = 0;
-        logos[active].animate({opacity: 1}, 200);
-      }, 300);
-    }, duration);
+    // setInterval(() => {
+    //   logos[active].animate({opacity: 0}, 200, easing);
+    //   setTimeout(function() {
+    //     active++;
+    //     if(!logos[active]) active = 0;
+    //     logos[active].animate({opacity: 1}, 200, easing);
+    //   }, 300);
+    // }, duration);
   }
   animateMessages (duration) {
     const animationDuration = duration/2;
-    const itemDuration = animationDuration/6;
+    const itemDuration = 400;
     const holdDuration = duration/2;
 
     const messages = this.snap.select('#foi-messages');
@@ -118,7 +143,7 @@ class Demo extends Component {
     const showMessageItems = (index, resolve) => () => {
       const items = messageItems[index];
       items.forEach((message, i) => {
-        message.animate({opacity: 1}, 400, null, () => {
+        message.animate({opacity: 1}, 400, easing, () => {
           if(i === items.length-1 && typeof resolve == 'function') {
             resolve();
           }
@@ -142,23 +167,23 @@ class Demo extends Component {
         resolve();
       }),
       () => new Promise((resolve, reject) => {
-        output.animate({transform: 't0,-43'}, itemDuration, null);
-        messages.animate({transform: 't0,112'}, itemDuration, null, showMessageItems(0, resolve));
+        output.animate({transform: 't0,-43'}, itemDuration, easing);
+        messages.animate({transform: 't0,112'}, itemDuration, easing, showMessageItems(0, resolve));
       }),
-      wait(itemDuration),
+      wait(itemDuration*2),
       () => new Promise((resolve, reject) => {
-        output.animate({transform: 't0,-30'}, itemDuration, null);
-        messages.animate({transform: 't0,84'}, itemDuration, null, showMessageItems(1, resolve));
+        output.animate({transform: 't0,-30'}, itemDuration, easing);
+        messages.animate({transform: 't0,84'}, itemDuration, easing, showMessageItems(1, resolve));
       }),
-      wait(itemDuration),
+      wait(itemDuration*2),
       () => new Promise((resolve, reject) => {
-        output.animate({transform: 't0,0'}, itemDuration, null);
-        messages.animate({transform: 't0,0'}, itemDuration, null, showMessageItems(2, resolve));
+        output.animate({transform: 't0,0'}, itemDuration, easing);
+        messages.animate({transform: 't0,0'}, itemDuration, easing, showMessageItems(2, resolve));
       }),
       wait(holdDuration),
       () => new Promise((resolve, reject) => {
-        output.animate({transform: 't0,-75', opacity: 0}, itemDuration, null);
-        messages.animate({transform: 't200,0', opacity: 0}, itemDuration, null, resolve);
+        output.animate({transform: 't0,-75', opacity: 0}, itemDuration, easing);
+        messages.animate({transform: 't200,0', opacity: 0}, itemDuration, easing, resolve);
       })
     ];
 

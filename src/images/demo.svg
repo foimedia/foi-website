@@ -281,7 +281,7 @@
             <use
                x="0"
                y="0"
-               xlink:href="#output-messages"
+               href="#output-messages"
                id="desktop-messages-box"
                transform="matrix(2.1740082,0,0,2.1740082,-712.06356,-327.86373)"
                width="100%"
@@ -404,7 +404,7 @@
          width="100%"
          transform="matrix(0.56173575,0,0,0.56173575,294.19118,136.63505)"
          id="use4244"
-         xlink:href="#swap-logos"
+         href="#swap-logos"
          y="0"
          x="0" />
       <g
@@ -417,42 +417,32 @@
              width="100%"
              transform="matrix(0.39214733,0,0,0.39214733,441.06503,129.3804)"
              id="output-message-3"
-             xlink:href="#foi-photo"
+             href="#foi-photo"
              y="0"
              x="0" />
           <g
              id="output-message-2"
              transform="matrix(0.46396512,0,0,0.46396512,425.17827,159.13977)">
-            <rect
-               style="fill:#dcdcdc;fill-opacity:1;stroke:#dcdcdc;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-               id="rect4469"
-               width="89.285713"
-               height="19.285715"
-               x="124.04051"
-               y="185.21254"
-               rx="1" />
             <circle
-               style="fill:#efefef;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               style="fill:#ccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                id="circle4471"
-               cx="134.04674"
+               cx="130.04674"
                cy="194.85539"
                r="8.8212204" />
             <rect
-               style="fill:#efefef;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               style="fill:#ccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                id="rect4473"
-               width="59.534569"
+               width="69.534569"
                height="4.7472129"
-               x="148.83852"
+               x="144.83852"
                y="192.4818"
                rx="0.69305849" />
             <text
                xml:space="preserve"
                style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               x="131.76761"
-               y="197.53397"
                id="text4475"><tspan
                  id="tspan4477"
-                 x="131.76761"
+                 x="127.76761"
                  y="197.53397"
                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome;fill:#ffffff;fill-opacity:1"></tspan></text>
           </g>
@@ -460,37 +450,17 @@
              id="output-message-1"
              transform="matrix(0.37566113,0,0,0.37566113,443.97807,203.28763)">
             <rect
-               style="fill:#dcdcdc;fill-opacity:1;stroke:#dcdcdc;stroke-width:3.76524782;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                id="rect4454"
                width="111.20563"
                height="31.537184"
                x="102.76485"
                y="144.5787"
-               rx="1.2455031" />
-            <rect
-               style="fill:#efefef;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-               id="rect4456"
-               width="80.755081"
-               height="6.5477386"
-               x="104.72556"
-               y="166.25026"
-               rx="0.94009244" />
-            <rect
-               rx="1.24287"
-               y="157.15622"
-               x="104.72556"
-               height="6.5477371"
-               width="106.76404"
-               id="rect4458"
-               style="fill:#efefef;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-            <rect
-               style="fill:#efefef;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-               id="rect4460"
-               width="106.76404"
-               height="6.5477371"
-               x="104.72556"
-               y="147.88029"
-               rx="1.24287" />
+               rx="1.2455031"
+               style="fill-opacity:0;" />
+            <text font-size="6" font-family="Inconsolata" fill="#444" class="example-text-message output-text-message">
+              <tspan x="100" y="147">The riot police has arrived,</tspan>
+              <tspan x="100" y="156">tensions rises among protestors.</tspan>
+            </text>
           </g>
         </g>
       </g>
@@ -594,36 +564,16 @@
              id="foi-message-1">
             <rect
                rx="1.2455031"
-               y="144.5787"
+               y="153.5787"
                x="102.76485"
-               height="31.537184"
+               height="22.537184"
                width="111.20563"
                id="foi-message-1-box"
                style="fill:#444444;fill-opacity:1;stroke:#444444;stroke-width:3.76524782;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-            <rect
-               rx="0.94009244"
-               y="166.25026"
-               x="104.72556"
-               height="6.5477386"
-               width="80.755081"
-               id="rect3616"
-               style="fill:#555555;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-            <rect
-               style="fill:#555555;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-               id="rect3614"
-               width="106.76404"
-               height="6.5477371"
-               x="104.72556"
-               y="157.15622"
-               rx="1.24287" />
-            <rect
-               rx="1.24287"
-               y="147.88029"
-               x="104.72556"
-               height="6.5477371"
-               width="106.76404"
-               id="rect3612"
-               style="fill:#555555;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+           <text font-size="6" font-family="Inconsolata" fill="#999" class="example-text-message foi-text-message">
+             <tspan x="107" y="162">The riot police has arrived,</tspan>
+             <tspan x="107" y="171">tensions rises among protestors.</tspan>
+           </text>
           </g>
           <g
              id="foi-message-2">

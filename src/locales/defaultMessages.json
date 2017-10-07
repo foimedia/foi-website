@@ -29,6 +29,18 @@
       {
         "defaultMessage": "Message",
         "id": "demo.msgPlaceholder"
+      },
+      {
+        "defaultMessage": "Your Website",
+        "id": "demo.website"
+      },
+      {
+        "defaultMessage": "Riot police has arrived,",
+        "id": "demo.textMessage1"
+      },
+      {
+        "defaultMessage": "tensions rises among protestors.",
+        "id": "demo.textMessage2"
       }
     ],
     "path": "src/components/demo.json"
