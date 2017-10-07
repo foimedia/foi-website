@@ -22,5 +22,7 @@
   "form.validation.name_empty": "You must provide a name.",
   "form.validation.unexpected_error": "An unexpected error occured, please refresh your page and try again.",
   "general.headline": "Real-time coverage of events for journalists and activists.",
-  "general.subtitle": "FOI is a Publishing Bot"
+  "general.subtitle": "FOI is a Publishing Bot",
+  "head.description": "Free software for publishing and sharing multimedia live feeds through a bot.",
+  "head.title": "FOI - Real-time coverage of events for journalists and activists."
 }

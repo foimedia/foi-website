@@ -42,6 +42,8 @@ const language = (navigator.languages && navigator.languages[0]) ||
 const languageWithoutRegionCode = language.toLowerCase().split(/[_-]+/)[0];
 const messages = localeData[language] || localeData[languageWithoutRegionCode] || localeData.en;
 
+import Head from 'components/head';
+
 import Video from 'components/video';
 import Header from 'components/header';
 import Headline from 'components/headline';
@@ -53,6 +55,7 @@ import Content from 'components/content';
 ReactDom.render(
   <IntlProvider locale={language} messages={messages}>
     <Wrapper>
+      <Head />
       <Video />
       <Header />
       <Headline />

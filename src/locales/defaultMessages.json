@@ -105,6 +105,19 @@
   {
     "descriptors": [
       {
+        "defaultMessage": "FOI - Real-time coverage of events for journalists and activists.",
+        "id": "head.title"
+      },
+      {
+        "defaultMessage": "Free software for publishing and sharing multimedia live feeds through a bot.",
+        "id": "head.description"
+      }
+    ],
+    "path": "src/components/head.json"
+  },
+  {
+    "descriptors": [
+      {
         "defaultMessage": "FOI is a Publishing Bot",
         "id": "general.subtitle"
       }
