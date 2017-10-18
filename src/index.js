@@ -9,6 +9,7 @@ import 'font-awesome/css/font-awesome.css';
 import en from 'react-intl/locale-data/en';
 import pt from 'react-intl/locale-data/pt';
 addLocaleData([...en, ...pt]);
+window.locales = ['en-US', 'pt-BR'];
 
 const Wrapper = styled.div`
   overflow-x: hidden;
@@ -36,9 +37,14 @@ const Wrapper = styled.div`
 `;
 
 import localeData from './locales';
-const language = (navigator.languages && navigator.languages[0]) ||
-                   navigator.language ||
-                   navigator.userLanguage;
+
+let query = {};
+window.location.search.slice(1).split('&').map(item => { const arr = item.split('='); query[arr[0]] = arr[1]; });
+
+const language = query.hl || query.lang ||
+                  (navigator.languages && navigator.languages[0]) ||
+                  navigator.language ||
+                  navigator.userLanguage;
 const languageWithoutRegionCode = language.toLowerCase().split(/[_-]+/)[0];
 const messages = localeData[language] || localeData[languageWithoutRegionCode] || localeData.en;
 

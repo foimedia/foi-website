@@ -26,7 +26,12 @@ class Head extends Component {
           <meta name="description" content={description} />
           <meta property="og:title" content={title} />
           <meta property="og:description" content={description} />
-          <link rel="canonical" href="https://www.foi.media" />
+          <link rel="canonical" href={site.url} />
+          {window.locales.map(l => (
+            <link rel="alternate" hreflang={l.toLowerCase()} href={`${site.url}?lang=${l}`} />
+          ))}
+          <meta property="og:url" content={site.url} />
+          <meta property="og:image" content={`${site.url}${require('images/facebook-poster.jpg')}`} />
       </Helmet>
     )
   }
