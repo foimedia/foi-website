@@ -41,7 +41,10 @@ import localeData from './locales';
 let query = {};
 window.location.search.slice(1).split('&').map(item => { const arr = item.split('='); query[arr[0]] = arr[1]; });
 
+const languagePath = window.location.pathname.split('/')[1];
+
 const language = query.hl || query.lang ||
+                  languagePath ||
                   (navigator.languages && navigator.languages[0]) ||
                   navigator.language ||
                   navigator.userLanguage;

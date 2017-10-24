@@ -4,6 +4,7 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 const siteUrl = process.env.SITE_URL || '';
+const languageUrl = process.env.LANGUAGE_URL || 'parameter';
 const mailingApi = process.env.MAILING_SUBSCRIPTION_API || 'http://localhost:3000';
 
 module.exports = {
@@ -28,7 +29,8 @@ module.exports = {
   plugins: [
     new webpack.DefinePlugin({
       'site': {
-        'url': JSON.stringify(siteUrl)
+        'url': JSON.stringify(siteUrl),
+        'languagePath': JSON.stringify(languageUrl)
       },
       'mailing': {
         'api': JSON.stringify(mailingApi)

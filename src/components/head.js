@@ -14,6 +14,17 @@ const messages = defineMessages({
 });
 
 class Head extends Component {
+  constructor (props) {
+    super(props);
+    if(site.languageUrl == 'pathname') {
+      this.languageUrl = '/';
+    } else {
+      this.languageUrl = '?lang=';
+    }
+  }
+  getWithoutRegionCode (l) {
+    return l.toLowerCase().split(/[_-]+/)[0];
+  }
   render () {
     const { intl } = this.props;
     const title = intl.formatMessage(messages.title);
@@ -27,9 +38,11 @@ class Head extends Component {
           <meta property="og:title" content={title} />
           <meta property="og:description" content={description} />
           <link rel="canonical" href={site.url} />
-          {window.locales.map(l => (
-            <link rel="alternate" hreflang={l.toLowerCase()} href={`${site.url}?lang=${l}`} />
-          ))}
+          {window.locales.map(l => ([
+            <link rel="alternate" hreflang={l.toLowerCase()} href={`${site.url}${this.languageUrl}${l}`} />,
+            <link rel="alternate" hreflang={this.getWithoutRegionCode(l)} href={`${site.url}${this.languageUrl}${this.getWithoutRegionCode(l)}`} />
+          ]))}
+          <link rel="alternate" hreflang="x-default" href={site.url} />
           <meta property="og:url" content={site.url} />
           <meta property="og:image" content={`${site.url}${require('images/facebook-poster.jpg')}`} />
       </Helmet>
