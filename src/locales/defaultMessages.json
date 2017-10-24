@@ -111,6 +111,10 @@
       {
         "defaultMessage": "Free software for publishing and sharing multimedia live feeds through a bot.",
         "id": "head.description"
+      },
+      {
+        "defaultMessage": "telegram bot, publishing, livestream, free software",
+        "id": "head.keywords"
       }
     ],
     "path": "src/components/head.json"

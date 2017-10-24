@@ -10,6 +10,10 @@ const messages = defineMessages({
   description: {
     id: 'head.description',
     defaultMessage: 'Free software for publishing and sharing multimedia live feeds through a bot.'
+  },
+  keywords: {
+    id: 'head.keywords',
+    defaultMessage: 'telegram bot, publishing, livestream, free software'
   }
 });
 
@@ -30,12 +34,13 @@ class Head extends Component {
     const { intl } = this.props;
     const title = intl.formatMessage(messages.title);
     const description = intl.formatMessage(messages.description);
+    const keywords = intl.formatMessage(messages.keywords);
     return (
       <Helmet>
           <html lang={intl.locale} />
-          <meta charset="utf-8" />
           <title>{title}</title>
           <meta name="description" content={description} />
+          <meta name="keywords" content={keywords} />
           <meta property="og:title" content={title} />
           <meta property="og:description" content={description} />
           <link rel="canonical" href={site.url} />
