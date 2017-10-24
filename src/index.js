@@ -43,13 +43,27 @@ window.location.search.slice(1).split('&').map(item => { const arr = item.split(
 
 const languagePath = window.location.pathname.split('/')[1];
 
-const language = query.hl || query.lang ||
+const language = query.lang ||
                   languagePath ||
                   (navigator.languages && navigator.languages[0]) ||
                   navigator.language ||
                   navigator.userLanguage;
-const languageWithoutRegionCode = language.toLowerCase().split(/[_-]+/)[0];
-const messages = localeData[language] || localeData[languageWithoutRegionCode] || localeData.en;
+
+const findLocale = language => {
+  let locale = false;
+  const languageWRC = language.toLowerCase().split(/[_-]+/)[0];
+  for(const key in localeData) {
+    let keyWRC = key.toLowerCase().split(/[_-]+/)[0];
+    if(!locale &&
+      (key == language || key == languageWRC || keyWRC == languageWRC || keyWRC == language)
+    ) {
+      locale = key;
+    }
+  }
+  return locale;
+};
+
+const messages = localeData[findLocale(language)] || localeData.en;
 
 import Head from 'components/head';
 
