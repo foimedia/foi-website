@@ -30,7 +30,7 @@ module.exports = {
     new webpack.DefinePlugin({
       'site': {
         'url': JSON.stringify(siteUrl),
-        'languagePath': JSON.stringify(languageUrl)
+        'languageUrl': JSON.stringify(languageUrl)
       },
       'mailing': {
         'api': JSON.stringify(mailingApi)
