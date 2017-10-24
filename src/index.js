@@ -7,9 +7,10 @@ import 'normalize.css';
 import 'font-awesome/css/font-awesome.css';
 
 import en from 'react-intl/locale-data/en';
+import es from 'react-intl/locale-data/es';
 import pt from 'react-intl/locale-data/pt';
-addLocaleData([...en, ...pt]);
-window.locales = ['en-US', 'pt-BR'];
+addLocaleData([...en, ...es, ...pt]);
+window.locales = ['en-US', 'es', 'pt-BR'];
 
 const Wrapper = styled.div`
   overflow-x: hidden;

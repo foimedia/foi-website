@@ -23,7 +23,8 @@ class Head extends Component {
     }
   }
   getWithoutRegionCode (l) {
-    return l.toLowerCase().split(/[_-]+/)[0];
+    const wrc = l.toLowerCase().split(/[_-]+/)[0];
+    return wrc !== l ? l.toLowerCase().split(/[_-]+/)[0] : false;
   }
   render () {
     const { intl } = this.props;
@@ -38,10 +39,13 @@ class Head extends Component {
           <meta property="og:title" content={title} />
           <meta property="og:description" content={description} />
           <link rel="canonical" href={site.url} />
-          {window.locales.map(l => ([
-            <link rel="alternate" hreflang={l.toLowerCase()} href={`${site.url}${this.languageUrl}${l}`} />,
-            <link rel="alternate" hreflang={this.getWithoutRegionCode(l)} href={`${site.url}${this.languageUrl}${this.getWithoutRegionCode(l)}`} />
-          ]))}
+          {window.locales.map(l => {
+            const wrc = this.getWithoutRegionCode(l);
+            return ([
+              <link rel="alternate" hreflang={l.toLowerCase()} href={`${site.url}${this.languageUrl}${l}`} />,
+              wrc ? <link rel="alternate" hreflang={wrc} href={`${site.url}${this.languageUrl}${wrc}`} /> : null
+            ])
+          })}
           <link rel="alternate" hreflang="x-default" href={site.url} />
           <meta property="og:url" content={site.url} />
           <meta property="og:image" content={`${site.url}${require('images/facebook-poster.jpg')}`} />
